@@ -1,0 +1,31 @@
+.dropdownbutton{
+background-color:grey;
+color:white;
+cursor:pointer;
+border:solidline;
+padding:10px;
+}
+.dropdown-menu{
+padding:10px;
+background-color:pink;
+display:none;
+
+}
+.dropdown-menu a{
+color:green;
+padding:10px 15px;
+display:block;
+text-decoration:none;
+
+}
+
+.dropdown-menu :hover{
+background-color:white;
+}
+
+.dropdown:hover .dropdown-menu{
+display:block;
+}
+
+
+

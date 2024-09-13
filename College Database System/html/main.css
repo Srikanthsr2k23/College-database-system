@@ -1,0 +1,33 @@
+.dropdownbutton{
+background-color:blue;
+color:white;
+cursor:pointer;
+border:none;
+padding:10px;
+margin-left:670px;
+margin-top:-22px;
+}
+.dropdown-menu{
+padding:10px;
+background-color:white;
+display:none;
+
+}
+.dropdown-menu a{
+color:orange;
+padding:10px 15px;
+display:block;
+text-decoration:none;
+
+}
+
+.dropdown-menu :hover{
+background-color:white;
+}
+
+.dropdown:hover .dropdown-menu{
+display:block;
+}
+
+
+
